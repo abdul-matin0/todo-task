@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:todo_task/database_helper.dart';
 import 'package:todo_task/screens/taskpage.dart';
 import 'package:todo_task/widgets.dart';
+import 'package:todo_task/models/task.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -10,6 +11,24 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   DatabaseHelper _dbHelper = DatabaseHelper();
+
+  void insertInfo() async{
+    String value = "Welcome to Todo-Task!";
+    String description = "Create a new task by clicking on the add button";
+
+    Task _newTask = Task(title: value, description: description);
+
+    // insert into database and get taskId
+    await _dbHelper.insertTask(_newTask);
+  }
+
+
+  @override
+  void initState() {
+    insertInfo();
+
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
