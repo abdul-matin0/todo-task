@@ -1,16 +1,20 @@
 # todo_task
 
 A To-do Flutter Application
+<br>
 
-## Getting Started
+# App Demo:
+<br><br>
+<b>Splash Screen and Splash Screen:</b>
+<p>
+  <img src="https://github.com/abdul-matin0/todo-task/blob/main/assets/screenshots/todo-splash.png" height="450px" width="250px">
+  <img src="https://github.com/abdul-matin0/todo-task/blob/main/assets/screenshots/todo-home.png" height="450px" width="250px">
+</p>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<br><br>
+<b>Create new notes and notes is being saved on local database</b>
+<br>
+<p>
+  <img src="https://github.com/abdul-matin0/todo-task/blob/main/assets/screenshots/todo-functions.png" height="450px" width="250px">
+  <img src="https://github.com/abdul-matin0/todo-task/blob/main/assets/screenshots/todo-lists.png" height="450px" width="250px">
+</p>
